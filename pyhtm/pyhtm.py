@@ -35,10 +35,6 @@ Python 3. The following objects are defined:
     -TemporalPoolers, which inherit from SpatialPoolers. Its purpose is to learn a 
         single representation of a given sequence, which it will provide when any single 
         element of that sequence is produced by the TM it monitors.
-        
-        
-This is a work-in-progress, so many advanced functionalities are not implemented yet.
-
     
 """
 from scipy import sparse
